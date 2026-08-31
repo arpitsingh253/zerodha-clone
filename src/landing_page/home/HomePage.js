@@ -12,14 +12,12 @@ import Footer from '../Footer';
 function HomePage() {
     return ( 
         <>
-         <TopNav />
         <Hero />
         {/* <Awards /> */}
         <Stats />
         <Pricing />
         <Education />
         <OpenAccount />
-        <Footer />
         </>
      );
     
