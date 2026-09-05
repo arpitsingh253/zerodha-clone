@@ -1,8 +1,14 @@
 import React from 'react';
-
+import Hero from './Hero';
+import Brokeage from './Brokeage';
+import Disclaimer from './Disclaimer';
 function PricingPage() {
     return ( 
-        <h1>Pricing Page</h1>
+       <>
+       <Hero/>
+       <Brokeage/>
+       <Disclaimer/>
+       </>
      );
 }
 
